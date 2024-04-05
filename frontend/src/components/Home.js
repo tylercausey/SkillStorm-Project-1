@@ -118,11 +118,13 @@ const Home = (props) => {
     const editWarehouse = async (warehouseId) => {
         const newCity = prompt("Enter new city name:", "");
         const newAddress = prompt("Enter new address:", "");
+        const newCapacity = prompt("Enter new max capacity:", "");
         if (newCity && newAddress) {
             try {
                 const updatedWarehouse = {
                     city: newCity,
                     address: newAddress,
+                    maxCapacity: newCapacity,
                     warehouseid: warehouseId
                 };
                 const response = await fetch(`http://localhost:8282/api/warehouses/${warehouseId}`, {
