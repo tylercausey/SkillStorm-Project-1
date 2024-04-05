@@ -1,0 +1,178 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+/* general styling */
+body{
+    width: 100%;
+}
+
+/* header styling */
+header {
+    display: flex;
+    justify-content: center;
+    margin: 50px 200px 10px 200px;
+}
+
+#headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #D9D9D9;
+    padding-bottom: 50px;
+}
+
+#icon {
+    height: 60px;
+    width: 200px;
+}
+
+#logo {
+    height: 70px;
+    width: 450px;
+}
+
+/* home styling */
+#home{
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px 0px 200px;
+}
+
+#homeContainer{
+    width: 100%;
+}
+
+#homeHeaderText{
+    font-size: 3rem;
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+    color: #474747;
+}
+
+#homeContents{
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+    color: #474747;
+    font-size: 25px;
+}
+
+#homeContentsSubheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#homeContentsSubheaderTitles{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#searchBar{
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+}
+
+/* rows styling */
+#allRows{
+    padding-top: 25px;
+}
+
+.warehousesOrInventory{
+    font-size: larger;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.warehouseInfoContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.underlineMe{
+    border-bottom: 2px solid black;
+}
+
+#addWarehouseButtonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 15px;
+}
+
+.viewInventoryButtonContainer{
+    display: flex;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.viewInventoryButton{
+    background-color: #1F4EDD;
+    color: white;
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+#addItemOrBackToWarehousesButtonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 1%;
+}
+
+.addElementOrBackToWarehousesButton {
+    background-color: #1F4EDD;
+    color: white;
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.addElementOrBackToWarehousesButton:hover {
+    background-color: #173694; 
+}
+
+.inventoryContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: x-large;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+.inventoryButtonContainerContainer{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.warehouseAndInventoryButtons {
+    background-color: #1F4EDD;
+    color: white;
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.warehouseAndInventoryButtons:hover {
+    background-color: #173694; 
+}
